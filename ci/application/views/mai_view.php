@@ -1,0 +1,164 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+  <img class="w3-image" src="https://scontent.fphs1-1.fna.fbcdn.net/v/t1.15752-9/242133645_194209979353490_7770629698063875264_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeHyZIckLlB9zUX1LwA4VWHLuE3P73GlYkS4Tc_vcaViRM8ihhR9ULI-wIjzXrK7-VWLvw-rOjSjw6Im_U50jwKZ&_nc_ohc=S860cW1w4CEAX9iw2p5&_nc_ht=scontent.fphs1-1.fna&oh=107ad9ddf6e5d7ace37e50934ae02ea0&oe=61701F0E" alt="Me" width="1500" height="600">
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-white w3-center">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge"></h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">MY PROFILE</h5>
+    <h3 class="w3-hide-medium w3-hide-small">MY PROFILE</h3>
+  </div>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-white">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-white">ABOUT ME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-white">THE ATTRACTION</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-white">FUTURE</a>
+    </div>
+  </div>
+</div>
+
+
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Welcome to my world</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Megenmai 2 5 4 3</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
+    <div>
+      <P><b><a href="CSS-ME.html"target="Cafe.html"class="w3-center w3-padding-64"><span class="w3-tag w3-wide">MY PICTURE</b></P>
+</div>
+    <div class="w3-container w3-border w3-border-grey">
+        <div class="w3-left-align">
+            <p>ชื่อ: นางสาวณัฏฐธิดา พงษ์เจตสุพรรณ์ </p> 
+            <p>ชื่อเล่น: ใหม่</p> 
+            <p>วัน/เดือน/ปีเกิด: 1 พฤศจิกายน พ.ศ.2543</p> 
+            <p>อายุ: 20 ปี</p> 
+            <p>บ้านเลขที่: 423/1 ต.หัวเดียด อ.เมืองตาก จ.ตาก 63000</p> 
+            <p>อาหารที่ชอบ: หมูกะทะ ชาบู ย่างเนย ไก่ทอด หมูทอด เฟรนฟรานชีส ไอศกรีม</p>            
+            <p>ประเภทหนังที่ชอบ: Action</p></div> 
+          
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE ATTRACTION</span></h5>
+
+    <div>
+      <P><b><a href="sm1.html"target="Cafe.html"class="w3-center w3-padding-64"><span class="w3-tag w3-wide">PICTURE</b></P>
+  </div>
+</div>
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">เกาะสิมิลัน</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">ที่อยู่</div>
+      </a>
+    </div>
+    
+    <div>
+      <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+        <div class="w3-container w3- w3-section w3-round-large">
+            <p class="w3-text-black">ที่อยู่</p>
+              <div class="w3-left-align">
+              <p class="w3-text-black">
+              <p>ที่อยู่ : อุทยานแห่งชาติหมู่เกาะสิมิลัน เลขที่ 93 หมู่ที่ 5 บ้านทับละมุ ถนนเพชรเกษม ตำบลลำแก่น อำเภอท้ายเหมือง จังหวัดพังงา </p> 
+              <p>เปิดให้เข้าชม : 15 ตุลาคม-15 พฤษภาคม ของทุกปี</p> 
+              <p>โทร : 0-7645-3272</p> 
+              </div> 
+    </div>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+  <div class="w3-container w3-blue w3-section w3-round-large">
+  	  <p class="w3-text-white">ประวัติ</p>
+      <p class="w3-text-black">สิมิลัน เป็นภาษายาวี ซึ่งแปลว่า “เก้า” ค่ะ ซึ่งมาจากจำนวนของเกาะน้อยใหญ่ทั้งหมดที่มารวมกันเป็น หมู่เกาะสิมิลัน นั่นเอง ตั้งอยู่ใน อุทยานแห่งชาติหมู่เกาะสิมิลัน จังหวัดพังงา ที่นี่ยังได้รับการขนานนามให้เป็นสวรรค์ของนักดำน้ำอีกแห่งในไทยเลยทีเดียว
+        ชายหาดสีขาวเนื้อละเอียด น้ำทะเลสีฟ้าใสราวคริสตัล แนวปะการังที่อุดมไปด้วยปลาทะเลหลากสายพันธุ์
+      </p></div><br>
+      
+      
+      <div class="w3-container w3-red w3-section w3-round-large">
+        <h5>จุดชมวิวหินเรือใบ</h5>
+        <p class="w3-text-black">มาถึงเกาะที่เป็นไฮไลท์ของหมู่เกาะสิมิลัน นั่นคือ เกาะแปด ที่มีจุดเด่นเป็น หินเรือใบ หรือ Sailing Rock ถือว่าเป็นแลนด์มาร์คของที่นี่ขึ้นมาบนเกาะแล้วใครอยากจะเดินขึ้นไปยัง จุดชมวิว ก็ให้เตรียมตัวให้พร้อม ดื่มน้ำให้เรียบร้อย แม้ระยะทางที่เดินขึ้นไปจะไม่ไกล แต่ก็สมบุกสมบันใช้ได้เลยทีเดียวค่ะ เพราะต้องปีนหินก้อนโตๆ บวกกับเดินในทางที่ลาดชันพอสมควรขึ้นไปเรื่อยๆ</p>
+      </div>
+  
+      
+    <div class="w3-container w3-green w3-section w3-round-large">
+      <h5>จุดดำน้ำสิมิลัน</h5>
+      <p class="w3-text-black">จากเกาะแปดออกเรือไปดำน้ำกันต่อที่จุดดำน้ำ เกาะเจ็ด หรือ เกาะปายู และ เกาะหก ไม่ว่าจะเป็นจุดไหนก็บอกได้เลยว่าน้ำใสมากและมีฝูงปลาหลากสีแวะเวียนว่ายมาทักทายกันเรื่อยๆ น้ำก็ไม่ลึกมากจนน่ากลัวด้วยนอกจากนี้ใต้ทะเลของหมู่เกาะสิมิลันนั้น ยังเต็มไปด้วยปะการังที่สวยงาม และสัตวน้ำนานาชนิด เป็นหมู่เกาะที่อุดมสมบูรณ์มากๆ อีกแห่งของไทย</p><br></div>
+      
+
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">FUTURE</span></h5>
+    <div class="w3-container w3-border w3-border-grey">
+      <div class="w3-left-align">
+          <p>อาชีพที่อยากจะเป็น: ข้าราชการ หรือ งานที่รองรับจากสายที่เรียน</p>
+          <p>อยากมีสายอาชีพนี้เพราะ: เป็นอาชีพที่มั่นคงสามารถดูแลคนในครอบครัวได้ </p>
+        </div>
+    </div>  
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"><a href="https://web.facebook.com/profile.php?id=100001395435768" target="_Cafe">
+  <a href="https://web.facebook.com/profile.php?id=100001395435768" target="_Cafe">Facebook</a><a href="Cafe.html" target="_Cafe"></a>
+  
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
